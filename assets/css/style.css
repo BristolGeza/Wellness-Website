@@ -3,6 +3,9 @@
 /* Base styles */
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -12,6 +15,14 @@ body {
 .footer {
     padding: 20px 0;
     text-align: center;
+    margin-top: auto;
+}
+
+.footer .col-md-4.text-center p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Responsive styles */
